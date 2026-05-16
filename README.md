@@ -1,2 +1,31 @@
-# Unity-Game-Framework
-A lightweight and modular game development framework built with Unity, featuring core systems including singleton pattern, event center, UI manager, audio manager, object pool,  FSM and debug tools. Suitable for internship projects and small/medium game demos.
+# Unity 通用游戏框架
+适用于中小型项目demo的轻量级 Unity 框架
+
+## 项目介绍
+基于模块化设计的 Unity 通用开发框架，包含企业级常用核心模块，可快速搭建 2D/3D 游戏 Demo。
+
+## 框架模块
+✅ 单例基类（普通单例 / Mono单例）  
+✅ 事件中心系统（解耦模块通信）  
+✅ UI 管理系统（打开/关闭/缓存）  
+✅ 音频管理系统（BGM / 音效）  
+✅ 场景管理系统（同步/异步加载）  
+✅ 对象池系统（减少GC，优化性能）  
+✅ FSM 有限状态机（角色/AI逻辑）  
+✅ 日志工具 + 调试工具（编辑器显示，打包关闭）
+
+## 适用场景
+- 快速开发游戏 Demo  
+- 独立游戏基础架构  
+- 学习 Unity 框架设计
+
+## 使用方式
+1. 克隆项目到本地  
+2. 使用 Unity 2021 LTS 及以上版本打开  
+3. 打开 Scenes/GameScene 运行测试  
+4. 框架入口：GameRoot.cs
+
+## 技术亮点
+- 低耦合、高可扩展  
+- 企业规范代码结构  
+- 全模块注释清晰  
